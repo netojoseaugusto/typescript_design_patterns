@@ -7,7 +7,7 @@ abstract class Car {
 class Sedan extends Car {
   public displayCarInfo(): void {
     console.log(
-      `This is a Sedan. Model: ${this.model}, Production Year: ${this.year}`
+      `This is a Sedan. Model: ${this.model}, Production Year: ${this.productionYear}`
     );
   }
 }
@@ -15,7 +15,7 @@ class Sedan extends Car {
 class SUV extends Car {
   public displayCarInfo(): void {
     console.log(
-      `This is a SUV. Model: ${this.model}, Production Year: ${this.year}`
+      `This is a SUV. Model: ${this.model}, Production Year: ${this.productionYear}`
     );
   }
 }
@@ -23,7 +23,7 @@ class SUV extends Car {
 class Hatchback extends Car {
   public displayCarInfo(): void {
     console.log(
-      `This is a Hatchback. Model: ${this.model}, Production Year: ${this.year}`
+      `This is a Hatchback. Model: ${this.model}, Production Year: ${this.productionYear}`
     );
   }
 }
